@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d31b89b57d944f93a5935abae06f5a43" Name="Diagram1">
+        <EntityTypeShape EntityType="DBModels.BanAn" Width="1.5" PointX="3.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModels.ChiTietDonNhap" Width="1.5" PointX="8.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModels.ChiTietHoaDon" Width="1.5" PointX="11.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModels.ChiTietMonAn" Width="1.5" PointX="11.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModels.DonNhapNguyenLieu" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModels.HoaDon" Width="1.5" PointX="6" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModels.ID" Width="1.5" PointX="3" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModels.MonAn" Width="1.5" PointX="9" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModels.NguyenLieu" Width="1.5" PointX="6" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModels.NhaCungCap" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModels.NhanVien" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModels.NuocUong" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
+        <AssociationConnector Association="DBModels.FK__HoaDon__Ban_ID__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModels.FK__ChiTietDo__DonNh__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModels.FK__ChiTietDo__NL_ID__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModels.FK__ChiTietHo__HoaDo__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModels.FK__ChiTietHo__MonAn__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModels.FK__ChiTietMo__MonAn__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModels.FK__ChiTietMo__NL_ID__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModels.FK__DonNhapNg__NCC_I__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModels.FK__DonNhapNg__NV_ID__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModels.FK__HoaDon__NV_ID__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="DBModels.FK__ID__NV_ID__3A81B327" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
